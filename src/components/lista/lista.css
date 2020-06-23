@@ -1,0 +1,14 @@
+li {
+	border: 1px solid #000;
+	list-style: none;
+	padding: 10px;
+	margin: 10px;
+}
+ol {
+	margin: 20;
+	padding: 0;
+	width: 100%;
+}
+li:hover {
+	background-color: #ddd;
+}
