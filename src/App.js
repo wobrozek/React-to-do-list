@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Box } from './components/lista/box';
+import { Button } from './components/button/button';
 
 class App extends Component {
 	render() {
@@ -9,6 +10,7 @@ class App extends Component {
 				<div className="wraper">
 					<Box title="normal box" />
 					<Box title="important box" variant="important" />
+					<Button />
 				</div>
 			</div>
 		);
