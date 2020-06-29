@@ -7,6 +7,19 @@
 	pointer-events: none;
 }
 
+:root {
+	background-color: #292423;
+}
+
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 10px 0;
+	flex-wrap: wrap;
+	color: #0083ff;
+}
+
 @media (prefers-reduced-motion: no-preference) {
 	.App-logo {
 		animation: App-logo-spin infinite 20s linear;
