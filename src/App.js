@@ -5,13 +5,20 @@ import { Button } from './components/button/button';
 import { Input } from './components/form/form';
 
 class App extends Component {
-	constructor() {
-		super();
+	constructor(props) {
+		super(props);
 		this.state = {
-			isClicked: false
+			list: [],
+			CurrentItems: {
+				text: '',
+				key: ''
+			}
 		};
+		this.onClick = this.onClick.bind(this);
 	}
-
+	onClick() {
+		console.log('siemano');
+	}
 	render() {
 		return (
 			<div>

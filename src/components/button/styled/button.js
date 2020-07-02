@@ -12,7 +12,7 @@ export const SButton = styled.div`
 
 	&:hover {
 		background-color: #0055ff;
-		cursor: click;
+		cursor: pointer;
 	}
 `;
 export const PlusHorizontal = styled.div`

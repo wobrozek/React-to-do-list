@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { SButton, PlusHorizontal, PlusVertical } from './styled/button';
 
-export function Button() {
-	return (
-		<SButton>
-			<PlusHorizontal />
-			<PlusVertical />
-		</SButton>
-	);
+export class Button extends Component {
+	render() {
+		return (
+			<SButton onClick={this.props.onClick}>
+				<PlusHorizontal />
+				<PlusVertical />
+			</SButton>
+		);
+	}
 }
